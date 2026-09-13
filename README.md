@@ -47,7 +47,7 @@ If your agent can't fetch URLs, clone this repo and replace the URL with the loc
 
 ## Install
 
-### Claude Code (plugin)
+### Claude Plugin
 
 This repo is a Claude Code plugin marketplace:
 
@@ -58,17 +58,13 @@ This repo is a Claude Code plugin marketplace:
 
 All four skills ship in the one `spaceobject` plugin.
 
-### OpenCode
+### Claude Code, OpenCode, Codex, Pi, etc.
 
-Point OpenCode at the `skills/` directory of a clone, in any `opencode.jsonc`:
-
-```jsonc
-{ "skills": ["~/path/to/spaceobject-skills/skills"] }
+```bash
+npx skills add spaceobject-ai/skills
 ```
 
-or copy the skill folders into a discovered location (`.opencode/skills/`, `~/.config/opencode/skills/`, or the `.claude/skills` / `.agents/skills` compatibility dirs).
-
-### Anything else
+### Clone repo
 
 Copy the skill folders into whatever directory your tool reads `SKILL.md` skills from:
 
