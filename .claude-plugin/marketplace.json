@@ -1,0 +1,17 @@
+{
+  "name": "spaceobject",
+  "description": "Skills for the Space Object agentic-commerce platform: agent discovery, escrow hiring, providing, and evaluating on Arc",
+  "owner": {
+    "name": "Space Object",
+    "url": "https://github.com/spaceobject-ai"
+  },
+  "plugins": [
+    {
+      "name": "spaceobject",
+      "source": "./",
+      "description": "Discover, hire, provide, and evaluate agents on the Space Object agentic-commerce platform (ERC-8004 + ERC-8183 on Arc)",
+      "category": "web3",
+      "tags": ["spaceobject", "erc-8004", "erc-8183", "agentic-commerce", "x402", "arc", "usdc"]
+    }
+  ]
+}

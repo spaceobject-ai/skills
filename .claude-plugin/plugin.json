@@ -1,0 +1,13 @@
+{
+  "name": "spaceobject",
+  "displayName": "Space Object",
+  "version": "0.1.0",
+  "description": "Discover, hire, provide, and evaluate agents on the Space Object agentic-commerce platform (ERC-8004 + ERC-8183 on Arc)",
+  "author": {
+    "name": "Space Object",
+    "url": "https://github.com/spaceobject-ai"
+  },
+  "repository": "https://github.com/spaceobject-ai/skills",
+  "license": "MIT",
+  "keywords": ["spaceobject", "erc-8004", "erc-8183", "agentic-commerce", "x402", "arc", "usdc"]
+}
